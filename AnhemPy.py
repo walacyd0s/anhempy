@@ -4,42 +4,42 @@ from tkinter import *
 
 def on_click():
     atividade1 = entrada1.get()
-    if not entrada1.get().isnumeric():
+    if entrada1.get().isalpha():
         tkinter.messagebox.showinfo('Erro', 'Informe apenas números!')
     else:
         atividade1 = float(entrada1.get())
     atividade2 = entrada2.get()
-    if not entrada2.get().isnumeric():
+    if entrada2.get().isalpha():
         tkinter.messagebox.showinfo('Erro', 'Informe apenas números!')
     else:
         atividade2 = float(entrada2.get())
     atividade3 = entrada3.get()
-    if not entrada3.get().isnumeric():
+    if entrada3.get().isalpha():
         tkinter.messagebox.showinfo('Erro', 'Informe apenas números!')
     else:
         atividade3 = float(entrada3.get())
     atividade4 = entrada4.get()
-    if not entrada4.get().isnumeric():
+    if entrada4.get().isalpha():
         tkinter.messagebox.showinfo('Erro', 'Informe apenas números!')
     else:
         atividade4 = float(entrada4.get())
     avaliacao1 = entrada5.get()
-    if not entrada5.get().isnumeric():
+    if entrada5.get().isalpha():
         tkinter.messagebox.showinfo('Erro', 'Informe apenas números!')
     else:
         avaliacao1 = float(entrada5.get())
     avaliacao2 = entrada6.get()
-    if not entrada6.get().isnumeric():
+    if entrada6.get().isalpha():
         tkinter.messagebox.showinfo('Erro', 'Informe apenas números!')
     else:
         avaliacao2 = float(entrada6.get())
     avaliacao3 = entrada7.get()
-    if not entrada7.get().isnumeric():
+    if entrada7.get().isalpha():
         tkinter.messagebox.showinfo('Erro', 'Informe apenas números!')
     else:
         avaliacao3 = float(entrada7.get())
     avaliacao4 = entrada8.get()
-    if not entrada8.get().isnumeric():
+    if entrada8.get().isalpha():
         tkinter.messagebox.showinfo('Erro', 'Informe apenas números!')
     else:
         avaliacao4 = float(entrada8.get())
